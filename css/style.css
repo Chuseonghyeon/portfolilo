@@ -1,0 +1,258 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+
+    background-color: darkgrey;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.navbar #login{
+
+    float: left;
+    
+}
+
+.navbar #login a{
+
+    color: dimgray;
+    font-weight: bold;
+
+}
+
+.navbar #login li{
+
+    margin-left: 15px;
+    margin-right: 15px;
+    float: left;
+    line-height: 60px;
+
+}
+
+.navbar #menu{
+
+    float: right;
+
+}
+
+.navbar #menu li{
+
+    float: left;
+    margin-left: 30px;
+    line-height: 60px;
+
+}
+
+.navbar #menu li a{
+
+    color: slategray;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.hero-header{
+
+    height: 450px;
+    background-image: url("/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-position: center;
+
+}
+
+#middle-logo{
+
+    height: 150px;
+
+}
+
+#middle-logo a{
+
+    text-align: center;
+    color: whitesmoke;
+    font-size: 23px;
+    line-height: 150px;
+
+}
+
+.search{
+
+    position: relative;
+    max-width: 527px;
+    margin: auto;
+    height: 50px;
+    background-color: #fff;
+
+}
+
+#search-input{
+
+    width: 100%;
+    padding: 0 16px;
+    height: 100%;
+    line-height: 100%;
+    font-size: 14px;
+    border: 0;
+
+}
+
+.button-div{
+
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 527px;
+    margin: 0 auto;
+    margin-top: 25px;
+
+}
+
+.button{
+
+    border-radius: 5px;
+    border: none;
+    padding: 0 22px;
+    cursor: pointer;
+    height: 42px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+
+}
+
+.button span{
+
+    margin-left: 10px;
+
+}
+
+#bs{
+
+    background-color: orange;
+    color: aliceblue;
+
+}
+
+#bs:hover{
+
+    background-color: rgb(202, 136, 12);
+
+}
+
+#steam{
+
+    background-color: skyblue;
+    color: whitesmoke;
+
+}
+
+#steam:hover{
+
+    background-color: rgb(112, 169, 192);
+
+}
+
+#kakao{
+
+    background-color: yellow;
+    color: rgb(22, 21, 21);
+
+}
+
+#kakao:hover{
+
+    background-color: rgb(231, 231, 0);
+
+}
+
+.rank-div{
+
+    margin-top: 30px;
+    text-align: center
+
+}
+
+.rank-div span{
+
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+
+.ranking{
+
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+    border-left: 1px gray solid;
+    border-right: 1px gray solid;
+
+}
+
+.left{
+
+    text-align: left;
+    width: 180px;
+
+}
+
+.ranking th, .ranking td{
+
+    padding: 5px 10px;
+
+}
+
+.ranking th{
+
+    background-color: rgb(100, 96, 96);
+
+}
+
+.ranking td{
+
+    border-bottom: 1px gray solid;
+
+}
+
+footer{
+
+    background-color: darkgrey;
+    height: 110px;
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 32px 16px;
+
+
+}
+
+.container{
+
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+footer p{
+
+    color: dimgrey;
+
+}
